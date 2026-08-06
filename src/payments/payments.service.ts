@@ -63,7 +63,7 @@ export class PaymentsService {
 
         let event: Stripe.Event;
         //testing
-        // const endpointSecret = 'whsec_336d966cf59c67ccbbe08666d350ce6bfee3a43cd9f53244be821c06647da26a'
+        // const endpointSecret = ''
 
         //real
         const endpointSecret = envs.stripeEndpointSecret
